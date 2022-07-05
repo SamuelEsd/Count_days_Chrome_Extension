@@ -1,0 +1,25 @@
+{
+    "name": "Day of the year",
+    "description": "Shows the number of days elapsed from the year, and the days left to end the year.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["storage", "activeTab", "scripting"],
+    "background": {
+        "service_worker": "background.js"
+      },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+          "16": "/images/girasol16.png",
+          "24": "/images/girasol24.png",
+          "32": "/images/girasol32.png",
+          "48": "/images/girasol48.png"
+          }
+      },
+      "icons": {
+        "16": "/images/girasol16.png",
+        "24": "/images/girasol24.png",
+        "32": "/images/girasol32.png",
+        "48": "/images/girasol48.png"
+      }
+  }
